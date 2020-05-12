@@ -5,13 +5,20 @@
     margin-bottom: 22px;
 }
 
+.mt{
+    margin-top: -3%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+
 .padd{
     padding: 40px 0 22px 0;
 }
 
 .fw{
     font-weight: 100;
-    font-size: 51px;
+    font-size: 50px;
 }
 
 .bor{
@@ -32,12 +39,11 @@
   }
 
   a:link, a:visited {
-    color: white;
-    text-decoration: none;
+    text-decoration: none!important;
 }
 
 .paddnav{
-    padding-top: 83px;
+    padding-top: 60px;
 }
 
 .bodytext{
@@ -181,4 +187,35 @@ a:hover {
 @keyframes modalopen{
     from {opacity: 0;}
     to {opacity: 1}
+}
+
+
+nav ul li{
+    position: relative;
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: #293f50;
+    padding: 10px;
+    border-radius: 10px;
+}
+  
+nav ul li:hover ul{
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+   }
+
+nav ul li ul li a{
+    color: #293f50;
+}
+
+p{
+    text-align: justify;
 }
