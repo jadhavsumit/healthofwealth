@@ -134,14 +134,6 @@ ul.a {
     background-color: #648880;
 }
 
-a:link {
-    color: white;
-  }
-
-a:hover {
-    color: red;
-  }
-
 .cur{
     cursor: context-menu;
 }
