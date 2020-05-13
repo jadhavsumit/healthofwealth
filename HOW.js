@@ -39,10 +39,6 @@ investments.addEventListener('click', openmodal);
 
 contacts.addEventListener('click', openmodal);
 
-investments.addEventListener('click', openmodal);
-
-contacts.addEventListener('click', openmodal);
-
 okbtns.addEventListener("click", closemodal);
 
 
