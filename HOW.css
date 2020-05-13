@@ -194,6 +194,7 @@ nav ul li ul{
     color: #293f50;
     padding: 10px;
     border-radius: 10px;
+    font-weight: bold;
 }
   
 nav ul li:hover ul{
@@ -211,4 +212,8 @@ nav ul li ul li a{
 
 p{
     text-align: justify;
+}
+
+#okbtn{
+    margin-bottom: auto;
 }

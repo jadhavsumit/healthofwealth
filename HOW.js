@@ -33,13 +33,19 @@ modalBtn.addEventListener("click", openmodal);
 
 closeBtn.addEventListener("click", closemodal);
 
-okbtns.addEventListener("click", closemodal);
-
-window.addEventListener("click", outsideclick); 
+window.addEventListener("click", clickOutside); 
 
 investments.addEventListener('click', openmodal);
 
 contacts.addEventListener('click', openmodal);
+
+investments.addEventListener('click', openmodal);
+
+contacts.addEventListener('click', openmodal);
+
+okbtns.addEventListener("click", closemodal);
+
+
 
 
 
@@ -51,12 +57,9 @@ function closemodal(){
     modal.style.display = "none";
 }
 
-function outsideclick(e){
-    if(e.target == 'modal'){
+function clickOutside(e){
+    if(e.target == modal){
         modal.style.display = "none";
     }
-   
 }
 
-investments.addEventListener('click', openmodal);
-contacts.addEventListener('click', openmodal);
