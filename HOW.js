@@ -5,13 +5,13 @@
 const scroll = document.querySelector('#scroll');
 
 scroll.addEventListener("click", function(){
-    // window.scrollTo({
-    //     top:0,
-    //     left:0,
-    //     behavior: "smooth"
-    // });
+    window.scrollTo({
+        top:0,
+        left:0,
+        behavior: "smooth"
+    });
 
-    $("html,body").animate({scrollTop:0}, "slow");
+    
 });
 
 //----- planning Scroll-----//
