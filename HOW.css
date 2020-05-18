@@ -183,32 +183,7 @@ ul.a {
 }
 
 
-nav ul li{
-    position: relative;
-}
 
-nav ul li ul{
-    display: none;
-    position: absolute;
-    background-color: white;
-    color: #293f50;
-    padding: 10px;
-    border-radius: 10px;
-    font-weight: bold;
-}
-  
-nav ul li:hover ul{
-    display: block;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-   }
-
-nav ul li ul li a{
-    color: #293f50;
-}
 
 p{
     text-align: justify;
@@ -216,4 +191,15 @@ p{
 
 #okbtn{
     margin-bottom: auto;
+}
+
+.disp{
+    display: block;
+}
+
+.dropdown-menu{
+    min-width:10px;
+    text-align: justify;
+    padding-left: 6px;
+    padding-right: 6px;
 }
