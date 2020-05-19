@@ -203,3 +203,14 @@ p{
     padding-left: 6px;
     padding-right: 6px;
 }
+
+a.active, a:hover{
+    transition: .5s;
+    background: darkgray;
+    color: #293f50;
+    border-radius: 5px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
