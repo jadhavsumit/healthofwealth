@@ -209,6 +209,7 @@ a.active, a:hover{
     background: darkgray;
     color: #293f50;
     border-radius: 5px;
+    padding: 3px;
 }
 
 .navbar-dark .navbar-nav .nav-link{
