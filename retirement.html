@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="HOW.css" />
+    <link rel="stylesheet" href="retirement.css" />
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
@@ -60,14 +62,33 @@
         </div>
     </nav>
 
+    <button id="scroll">
+        <i class="material-icons">arrow_upward</i>
+    </button>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                
+        <div class="container bg">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="container ">
+                        <h1 class="bdytxt">Calculate your Retirement planning</h1>
+                    </div>
+                </div>
             </div>
 
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="container">
+                        <span>AGE</span>
+                        <input type="range" min="18" max="60" value="18" id="slider" 
+                        onmousemove="rangeSlider(this.value)"
+                        onchange="rangeSlider(this.value)">
+                        <span class="digi" id="rangeValue">0</span>
+                    </div>
+                </div>
+                
+            </div>
         </div>
     </div>
-
+    <script src="HOW.js"></script>
 </body>

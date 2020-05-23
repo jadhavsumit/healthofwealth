@@ -59,3 +59,7 @@ function clickOutside(e){
     }
 }
 
+//-----range slider------//
+function rangeSlider(value){
+    document.getElementById('rangeValue').innerHTML= value;
+}

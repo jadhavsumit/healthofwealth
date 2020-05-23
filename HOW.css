@@ -209,22 +209,3 @@ p{
     margin-bottom: auto;
 }
 
-.disp{
-    display: block;
-}
-
-.dropdown-menu{
-    min-width:10px;
-    text-align: justify;
-    padding-left: 6px;
-    padding-right: 6px;
-}
-
-a.active, a:hover{
-    transition: .5s;
-    border-radius: 5px;
-}
-
-.navbar-dark .navbar-nav .nav-link{
-    color: white;
-}

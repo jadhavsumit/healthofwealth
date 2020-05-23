@@ -1,0 +1,47 @@
+.bdytxt{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+
+.bg{
+    background-color:#293f50 ;
+}
+
+#slider{
+    -webkit-appearance: none;
+    width: 50%;
+    height: 2px;
+    outline: none;
+    border-radius: 4px;
+    background-color:white;
+    
+}
+
+#slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #648880;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#rangevalue{
+    font-size: medium;
+    padding: 2px;
+    width: 50px;
+    box-sizing: border-box;
+    background: #ffff;
+    text-align: center;
+    color: #293f50;
+}
+
+.digi{
+    background: white;
+    padding: 2px;
+    border-radius: 6px;
+    color:#293f50 ;
+}
+
