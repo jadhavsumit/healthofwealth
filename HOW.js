@@ -62,4 +62,48 @@ function clickOutside(e){
 //-----range slider------//
 function rangeSlider(value){
     document.getElementById('rangeValue').innerHTML= value;
+    
 }
+
+function  rangeSliderExpec(value){
+    document.getElementById('rangeValueExpec').innerHTML = value;
+}
+
+function  rangeSliderMonth(value){
+    document.getElementById('motnhExpense').innerHTML = value;
+}
+
+function  rangeSliderInf(value){
+    document.getElementById('inflation').innerHTML = value;
+}
+
+function  rangeSliderRet(value){
+    document.getElementById('returns').innerHTML = value;
+}
+
+function  rangeSliderPostRet(value){
+    document.getElementById('postReturns').innerHTML = value;
+}
+
+// Load google charts
+google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Work',     11],
+          ['Eat',      2],
+          ['Commute',  2],
+          ['Watch TV', 2],
+          ['Sleep',    7]
+        ]);
+
+        var options = {
+          title: 'My Daily Activities',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+
